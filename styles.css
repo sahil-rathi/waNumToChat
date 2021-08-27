@@ -99,9 +99,21 @@ input::-webkit-inner-spin-button {
      .heading{
         font-size: 20px;
         letter-spacing: 0.2em;
+        font-weight: 400;
      }
      .maintext{
          font-size: 15px;
      }
+     #inputNum{
+        font-size: 24px;
+        width: 240px;
+        height: 33px;
+    }
+    #inputNum::placeholder{
+        font-size: 16px;
+    }
+    .submit{
+        height: 40px;
+    }
      
  }
